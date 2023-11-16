@@ -55,6 +55,13 @@ public class IncredibleCalculator {
                 System.out.println(divisionEntera(num1,num2));
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+                System.out.println("Diga num 1:");
+                aux=sc.nextLine();
+                num1=Integer.parseInt(aux);
+                System.out.println("Diga num 2:");
+                aux=sc.nextLine();
+                num2=Integer.parseInt(aux);
+                System.out.println(divisionConDecimales(num1,num2));
                     break;
 
         }
