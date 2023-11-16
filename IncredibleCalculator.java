@@ -28,6 +28,13 @@ public class IncredibleCalculator {
                 System.out.println(suma(num1,num2));
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+                System.out.println("Diga num 1:");
+                aux=sc.nextLine();
+                num1=Integer.parseInt(aux);
+                System.out.println("Diga num 2:");
+                aux=sc.nextLine();
+                num2=Integer.parseInt(aux);
+                System.out.println(resta(num1,num2));
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
